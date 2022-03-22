@@ -35,3 +35,4 @@ jobs:
           heroku_email: "khainguyenwrk@gmail.com"
           healthcheck: "https://fso-pokedex-cicd.herokuapp.com/health"
           checkstring: "ok"
+          rollbackonhealthcheckfailed: true
