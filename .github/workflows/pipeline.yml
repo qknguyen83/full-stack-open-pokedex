@@ -34,7 +34,7 @@ jobs:
         name: run akhileshns/heroku-deploy@v3.12.12
         uses: akhileshns/heroku-deploy@v3.12.12
         with:
-          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+          heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
           heroku_app_name: "fso-pokedex-cicd"
           heroku_email: "khainguyenwrk@gmail.com"
           healthcheck: "https://fso-pokedex-cicd.herokuapp.com/health"
@@ -50,3 +50,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DEFAULT_BUMP: patch
+          WITH_V: true
