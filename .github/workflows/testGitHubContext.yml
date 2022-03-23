@@ -1,9 +1,9 @@
-name: Testing stuff
+name: Testing GitHub context
 
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   a-test-job:
