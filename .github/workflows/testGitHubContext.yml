@@ -28,4 +28,5 @@ jobs:
         run: echo "$TEST_1"
       - name: test 2
         env:
-          TEST_2: ${{ contains(join(github.event.commits.*.message, ''), '#skip') }}
+          TEST_2: ${{ contains(join(github.event.commits.*.message, ' '), '#skip') }}
+        run: echo "$TEST_2"
