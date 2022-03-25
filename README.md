@@ -13,3 +13,7 @@ Start by running `npm install` inside the project folder
 `npm run eslint` to run eslint
 `npm run build` to make a production build
 `npm run start-prod` to run your production build
+
+## Link to the 11.20 11.21 exercise repo
+
+https://github.com/qknguyen83/full-stack-open-blogapp
